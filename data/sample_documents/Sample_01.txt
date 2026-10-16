@@ -1,0 +1,6 @@
+Retrieval-Augmented Generation is a technique that
+combines information retrieval with large language models.
+Documents are divided into smaller chunks. Each chunk
+can be converted into an embedding and stored in a vector
+database. When a user asks a question, relevant chunks
+are retrieved and passed to the language model.
