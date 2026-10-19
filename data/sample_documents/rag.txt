@@ -1,0 +1,5 @@
+
+Document Ingestion
+
+Document ingestion extracts and prepares text from different
+sources for further processing.

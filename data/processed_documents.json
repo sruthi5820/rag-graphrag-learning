@@ -1,0 +1,32 @@
+[
+  {
+    "document_id": "d330fa6bc258b2a79b4fb328bfb2749dcb425b57eb33540a7a30e15bbead38ba",
+    "filename": "Sample_01.txt",
+    "source": "/Users/sruthikrishna/Work/Study_R&D/rag-graphrag-learning/data/sample_documents/Sample_01.txt",
+    "file_type": "txt",
+    "file_size_bytes": 324,
+    "updated_at": "2026-10-16T05:22:49.752807+00:00",
+    "content_hash": "d330fa6bc258b2a79b4fb328bfb2749dcb425b57eb33540a7a30e15bbead38ba",
+    "text": "Retrieval-Augmented Generation is a technique that\ncombines information retrieval with large language models.\nDocuments are divided into smaller chunks. Each chunk\ncan be converted into an embedding and stored in a vector\ndatabase. When a user asks a question, relevant chunks\nare retrieved and passed to the language model."
+  },
+  {
+    "document_id": "187fe517634aaa87bbe9df9d8bcfe61fce2ed385b3994c01c95fb0ed2e1ce779",
+    "filename": "document.txt",
+    "source": "/Users/sruthikrishna/Work/Study_R&D/rag-graphrag-learning/data/sample_documents/document.txt",
+    "file_type": "txt",
+    "file_size_bytes": 137,
+    "updated_at": "2026-10-19T05:12:48.232826+00:00",
+    "content_hash": "187fe517634aaa87bbe9df9d8bcfe61fce2ed385b3994c01c95fb0ed2e1ce779",
+    "text": "Company Leave Policy\n\nEmployees should submit leave requests to their manager.\nLeave requests must follow the company's approval process."
+  },
+  {
+    "document_id": "d9ab94031b67529ed3c3257b241c7c4e4e419d52fd20b79624568c6177dc9079",
+    "filename": "rag.txt",
+    "source": "/Users/sruthikrishna/Work/Study_R&D/rag-graphrag-learning/data/sample_documents/rag.txt",
+    "file_type": "txt",
+    "file_size_bytes": 113,
+    "updated_at": "2026-10-19T05:13:15.867059+00:00",
+    "content_hash": "d9ab94031b67529ed3c3257b241c7c4e4e419d52fd20b79624568c6177dc9079",
+    "text": "Document Ingestion\n\nDocument ingestion extracts and prepares text from different\nsources for further processing."
+  }
+]
