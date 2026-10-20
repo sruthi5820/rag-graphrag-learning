@@ -1,0 +1,1 @@
+Alice develops a RAG application using Python. The RAG application uses ChromaDB.

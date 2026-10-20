@@ -1,0 +1,20 @@
+[
+  {
+    "source_id": "ent_be7dd73f5661",
+    "target_id": "ent_4882dae06540",
+    "relationship_type": "DEVELOPS",
+    "document_id": "document_001",
+    "chunk_id": "document_001_chunk_001",
+    "evidence": "Alice develops a RAG application using",
+    "confidence": 1.0
+  },
+  {
+    "source_id": "ent_be7dd73f5661",
+    "target_id": "ent_4882dae06540",
+    "relationship_type": "WORKS_ON",
+    "document_id": "document_002",
+    "chunk_id": "document_002_chunk_001",
+    "evidence": "Alice works on the RAG application.",
+    "confidence": 1.0
+  }
+]

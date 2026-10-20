@@ -1,0 +1,26 @@
+[
+    {
+      "question": "What does the document say about password recovery?",
+      "expected_answer": "The documented recovery procedure.",
+      "expected_source_ids": ["doc-001"],
+      "category": "answerable"
+    },
+    {
+      "question": "What is the company's office opening time?",
+      "expected_answer": "The available documents do not provide this information.",
+      "expected_source_ids": [],
+      "category": "unanswerable"
+    },
+    {
+      "question": "How do I reset my account password?",
+      "expected_answer": "Follow the password reset instructions in the account recovery document.",
+      "expected_source_ids": ["doc-001", "doc-004"],
+      "category": "answerable"
+    },
+    {
+      "question": "How does the first process affect the second process?",
+      "expected_answer": "The answer requires evidence from both relevant documents.",
+      "expected_source_ids": ["doc-010", "doc-015"],
+      "category": "multi_hop"
+    }
+  ]

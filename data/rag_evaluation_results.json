@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What does the document say about password recovery?",
+    "category": "answerable",
+    "retrieved_source_ids": [
+      "doc-001",
+      "doc-004",
+      "doc-010"
+    ],
+    "answer": "Follow the documented password recovery procedure. [doc-001]",
+    "recall_at_5": 1.0,
+    "exact_match": 0.0,
+    "retrieval_latency_ms": 0.0,
+    "generation_latency_ms": 0.0,
+    "total_latency_ms": 0.0
+  },
+  {
+    "question": "What is the company's office opening time?",
+    "category": "unanswerable",
+    "retrieved_source_ids": [],
+    "answer": "The available documents do not provide enough information to answer this question.",
+    "recall_at_5": null,
+    "exact_match": 0.0,
+    "retrieval_latency_ms": 0.0,
+    "generation_latency_ms": 0.0,
+    "total_latency_ms": 0.0
+  },
+  {
+    "question": "How do I reset my account password?",
+    "category": "answerable",
+    "retrieved_source_ids": [
+      "doc-001",
+      "doc-004",
+      "doc-010"
+    ],
+    "answer": "Follow the documented password recovery procedure. [doc-001]",
+    "recall_at_5": 1.0,
+    "exact_match": 0.0,
+    "retrieval_latency_ms": 0.0,
+    "generation_latency_ms": 0.0,
+    "total_latency_ms": 0.0
+  },
+  {
+    "question": "How does the first process affect the second process?",
+    "category": "multi_hop",
+    "retrieved_source_ids": [],
+    "answer": "The available documents do not provide enough information to answer this question.",
+    "recall_at_5": 0.0,
+    "exact_match": 0.0,
+    "retrieval_latency_ms": 0.0,
+    "generation_latency_ms": 0.0,
+    "total_latency_ms": 0.0
+  }
+]

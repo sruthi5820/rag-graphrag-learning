@@ -1,0 +1,1 @@
+Alice works on the RAG application. The application uses Python.

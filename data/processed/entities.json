@@ -1,0 +1,42 @@
+[
+  {
+    "entity_id": "ent_d8a86e98f4d1",
+    "canonical_name": "Python",
+    "entity_type": "PROGRAMMING_LANGUAGE",
+    "aliases": [],
+    "source_document_ids": [
+      "chunking_sample",
+      "document_001",
+      "document_002"
+    ]
+  },
+  {
+    "entity_id": "ent_be7dd73f5661",
+    "canonical_name": "Alice",
+    "entity_type": "PERSON",
+    "aliases": [],
+    "source_document_ids": [
+      "document_001",
+      "document_002"
+    ]
+  },
+  {
+    "entity_id": "ent_4882dae06540",
+    "canonical_name": "RAG application",
+    "entity_type": "SOFTWARE_SYSTEM",
+    "aliases": [],
+    "source_document_ids": [
+      "document_001",
+      "document_002"
+    ]
+  },
+  {
+    "entity_id": "ent_ed59bcfa60ab",
+    "canonical_name": "ChromaDB",
+    "entity_type": "DATABASE",
+    "aliases": [],
+    "source_document_ids": [
+      "document_001"
+    ]
+  }
+]

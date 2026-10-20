@@ -1,0 +1,234 @@
+{
+  "nodes": [
+    {
+      "id": "Alice",
+      "entity_type": "Person",
+      "department": "Research"
+    },
+    {
+      "id": "Bob",
+      "entity_type": "Person",
+      "department": "Engineering"
+    },
+    {
+      "id": "SDI",
+      "entity_type": "Organization",
+      "organization_type": "ExampleOrganization"
+    },
+    {
+      "id": "Artificial Intelligence",
+      "entity_type": "TechnicalConcept"
+    },
+    {
+      "id": "Machine Learning",
+      "entity_type": "TechnicalConcept"
+    },
+    {
+      "id": "RAG",
+      "entity_type": "TechnicalConcept"
+    },
+    {
+      "id": "GraphRAG",
+      "entity_type": "TechnicalConcept"
+    },
+    {
+      "id": "Vector Database",
+      "entity_type": "Technology"
+    },
+    {
+      "id": "Embeddings",
+      "entity_type": "TechnicalConcept"
+    },
+    {
+      "id": "Semantic Search",
+      "entity_type": "Technology"
+    },
+    {
+      "id": "Language Model",
+      "entity_type": "Technology"
+    },
+    {
+      "id": "Document",
+      "entity_type": "DocumentType"
+    },
+    {
+      "id": "Research Project",
+      "entity_type": "Project"
+    },
+    {
+      "id": "Question Answering",
+      "entity_type": "Application"
+    },
+    {
+      "id": "Knowledge Graph",
+      "entity_type": "TechnicalConcept"
+    },
+    {
+      "id": "Unconnected Example",
+      "entity_type": "TestEntity"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Alice",
+      "target": "SDI",
+      "relation": "WORKS_AT",
+      "source_document_id": "doc_001",
+      "evidence": "Alice works at SDI."
+    },
+    {
+      "source": "Alice",
+      "target": "Artificial Intelligence",
+      "relation": "STUDIES",
+      "source_document_id": "doc_003",
+      "evidence": "Alice studies Artificial Intelligence."
+    },
+    {
+      "source": "Alice",
+      "target": "Research Project",
+      "relation": "WORKS_ON",
+      "source_document_id": "doc_017",
+      "evidence": "Alice works on the research project."
+    },
+    {
+      "source": "Alice",
+      "target": "Document",
+      "relation": "AUTHORED",
+      "source_document_id": "doc_022",
+      "evidence": "Alice authored the example document."
+    },
+    {
+      "source": "Bob",
+      "target": "SDI",
+      "relation": "WORKS_AT",
+      "source_document_id": "doc_002",
+      "evidence": "Bob works at SDI."
+    },
+    {
+      "source": "Bob",
+      "target": "Machine Learning",
+      "relation": "STUDIES",
+      "source_document_id": "doc_004",
+      "evidence": "Bob studies Machine Learning."
+    },
+    {
+      "source": "Bob",
+      "target": "Research Project",
+      "relation": "WORKS_ON",
+      "source_document_id": "doc_018",
+      "evidence": "Bob works on the research project."
+    },
+    {
+      "source": "Artificial Intelligence",
+      "target": "RAG",
+      "relation": "INCLUDES",
+      "source_document_id": "doc_006",
+      "evidence": "RAG is a topic associated with Artificial Intelligence."
+    },
+    {
+      "source": "Artificial Intelligence",
+      "target": "GraphRAG",
+      "relation": "INCLUDES",
+      "source_document_id": "doc_007",
+      "evidence": "GraphRAG is associated with Artificial Intelligence."
+    },
+    {
+      "source": "Machine Learning",
+      "target": "Artificial Intelligence",
+      "relation": "RELATED_TO",
+      "source_document_id": "doc_005",
+      "evidence": "Machine Learning is related to Artificial Intelligence."
+    },
+    {
+      "source": "RAG",
+      "target": "Embeddings",
+      "relation": "USES",
+      "source_document_id": "doc_009",
+      "evidence": "The example RAG system uses embeddings."
+    },
+    {
+      "source": "RAG",
+      "target": "Vector Database",
+      "relation": "USES",
+      "source_document_id": "doc_010",
+      "evidence": "The example RAG system uses a vector database."
+    },
+    {
+      "source": "RAG",
+      "target": "Question Answering",
+      "relation": "USED_IN",
+      "source_document_id": "doc_015",
+      "evidence": "RAG can provide supporting context for question answering."
+    },
+    {
+      "source": "GraphRAG",
+      "target": "RAG",
+      "relation": "EXTENDS",
+      "source_document_id": "doc_008",
+      "evidence": "GraphRAG extends the RAG approach with graph-based information."
+    },
+    {
+      "source": "GraphRAG",
+      "target": "Vector Database",
+      "relation": "USES",
+      "source_document_id": "doc_012",
+      "evidence": "The example GraphRAG system uses a vector database."
+    },
+    {
+      "source": "GraphRAG",
+      "target": "Knowledge Graph",
+      "relation": "USES",
+      "source_document_id": "doc_013",
+      "evidence": "The example GraphRAG system uses a knowledge graph."
+    },
+    {
+      "source": "GraphRAG",
+      "target": "Question Answering",
+      "relation": "USED_IN",
+      "source_document_id": "doc_016",
+      "evidence": "GraphRAG can support question-answering applications."
+    },
+    {
+      "source": "Semantic Search",
+      "target": "Embeddings",
+      "relation": "USES",
+      "source_document_id": "doc_011",
+      "evidence": "Semantic search can use embeddings."
+    },
+    {
+      "source": "Language Model",
+      "target": "Question Answering",
+      "relation": "USED_IN",
+      "source_document_id": "doc_014",
+      "evidence": "A language model can be used in a question-answering application."
+    },
+    {
+      "source": "Document",
+      "target": "RAG",
+      "relation": "DESCRIBES",
+      "source_document_id": "doc_020",
+      "evidence": "A document describes RAG."
+    },
+    {
+      "source": "Document",
+      "target": "Knowledge Graph",
+      "relation": "MENTIONS",
+      "source_document_id": "doc_021",
+      "evidence": "A document mentions knowledge graphs."
+    },
+    {
+      "source": "Research Project",
+      "target": "GraphRAG",
+      "relation": "STUDIES",
+      "source_document_id": "doc_019",
+      "evidence": "The research project studies GraphRAG."
+    },
+    {
+      "source": "Knowledge Graph",
+      "target": "GraphRAG",
+      "relation": "RELATED_TO",
+      "source_document_id": "doc_023",
+      "evidence": "Knowledge graphs are related to GraphRAG."
+    }
+  ]
+}
